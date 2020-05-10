@@ -1,0 +1,18 @@
+section {
+    padding: 60px 0;
+}
+
+#projects {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        padding: 20px 0px;
+    }
+    #projects {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

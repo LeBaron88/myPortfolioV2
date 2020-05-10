@@ -1,0 +1,51 @@
+h4 {
+    // color: #9E9E9E;
+    color: white;
+    font-weight: 700;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+a {
+    color: #00BCD4!important;
+}
+
+a.btn {
+    border: 1px solid #00BCD4;
+    transition: .2s;
+}
+
+a.btn i {
+    transition: .2s;
+}
+
+a.btn:hover,
+a.btn:hover i {
+    border-color: #49ebff;
+    color: #49ebff !important;
+}
+
+a.btn:hover {
+    background-color: rgba(73,235,255, 0.1) !important;
+}
+
+.links {
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+
+.links a i {
+    color: #00BCD4 !important;
+    transition: .2s;
+}
+
+.links a i:hover {
+    color: #49ebff !important;
+}

@@ -1,0 +1,38 @@
+<h4>My Projects</h4>
+<div class="row">
+  <div class="col s12 m6 l4" *ngFor="let project of projects">
+    <div class="card sticky-action small">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" [src]="project.imgSrc" />
+      </div>
+      <div class="card-content">
+        <span class="card-title activator cyan-text">
+            {{project.name}}
+            <i class="material-icons right">more_vert</i>
+        </span>
+      </div>
+      <div class="card-action"> 
+          <div class="actionContainer">
+            <div class="actionContent"><a [href]="project.links.github" class="cyan-text" target="_blank"><i class="fab fa-github"></i>      Code</a></div>
+            <div class="actionContent"><a [href]="project.links.site" class="cyan-text" target="_blank"><i class="fas fa-external-link-alt"></i>      Launch</a></div>
+          </div>
+        </div>
+      <div class="card-reveal revealText">
+        <span class="card-title grey-text"
+          ><i class="material-icons right">close</i></span
+        >
+        <p class="grey-text">
+          {{project.description}}   
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="more" (click)="showMore()" *ngIf="more">
+    <p class="cyan-text center">Show More</p>
+    <p class="cyan-text center"><i class="material-icons">keyboard_arrow_down</i></p>
+</div>
+<div class="more" (click)="showLess()" *ngIf="!more">
+    <p class="cyan-text center"><i class="material-icons">keyboard_arrow_up</i></p>
+    <p class="cyan-text center less">Show Less</p>    
+</div>

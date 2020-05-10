@@ -1,0 +1,92 @@
+.nav-wrapper {
+  padding: 0 1em 0 3em;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0) !important;
+  box-shadow: 0 0 0;
+}
+
+a {
+  cursor: pointer;
+}
+
+.nav-wrapper li a {
+  font-weight: 600 !important;
+  color: #fff;
+}
+
+.nav-wrapper li a:hover {
+  color: #00bcd4;
+  transition: 0.2s ease-in;
+  background-color: transparent !important;
+}
+
+nav ul li:hover {
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+
+.navScrolled {
+  background-color: rgba(73, 235, 255, 0.1) !important;
+}
+
+a.btn {
+  border: 1px solid #00bcd4;
+  transition: 0.2s;
+}
+
+a.btn i {
+  transition: 0.2s;
+}
+
+a.btn:hover,
+a.btn:hover i {
+  border-color: #49ebff;
+  color: #49ebff !important;
+}
+
+a.btn:hover {
+  background-color: rgba(73, 235, 255, 0.1) !important;
+}
+
+.sidenav-trigger {
+  margin-left: -20px;
+}
+a img {
+  margin: 10px;
+  width: 10%;
+}
+
+.sidenav {
+    height: 100vh;
+    background-color: #FFF;
+}
+
+.sidenav .background {
+    height: 30vh;
+}
+
+.background img {
+    margin-top: 40px;
+    width: 40%;
+  }
+
+.sidenav .navlinks {
+    height: 50vh;
+}
+
+.sidenav a {
+    color: #00bcd4;
+    font-size: 1.2em;
+}
+
+.sidenav .socialinks {
+    height: 20vh;
+    font-size: 1.6em;
+}
+
+@media only screen and (max-width: 768px) {
+}

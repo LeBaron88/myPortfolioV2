@@ -1,0 +1,62 @@
+<nav>
+  <div class="nav-wrapper transparent" [class.navScrolled]="navScrolled">
+    <div class="brand-logo">
+      <a class="cyan-text hide-on-med-and-down" (click)="goTo('navbar')">
+        <img src="../../assets/images/smlogo.png" alt="">
+      </a>
+    </div>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+      ><i class="material-icons">menu</i></a
+    >
+    <ul class="right hide-on-med-and-down">
+      <li><a (click)="goTo('about')">About me</a></li>
+      <li><a (click)="goTo('experience')">Experience</a></li>
+      <li><a (click)="goTo('projects')">Projects </a></li>
+      <li><a (click)="goTo('contact')">Contact</a></li>
+      <a
+        href="../../assets/Simon Resume.pdf"
+        target="_blank"
+        class="waves-effect waves-light btn transparent cyan-text"
+        ><i class="material-icons cyan-text left">file_download</i
+        ><span>Resume</span></a
+      >
+    </ul>
+  </div>
+</nav>
+
+<ul class="sidenav center" id="mobile-demo" #sidenav>
+  <div class="background">
+    <img src="../../assets/images/smlogo.png" alt="">
+    <br />
+    <br />
+    <br />
+  </div>
+  <div class="navlinks">
+  <li><a (click)="goTo('about')">About me</a></li>
+  <li><a (click)="goTo('experience')">Experience</a></li>
+  <li><a (click)="goTo('projects')">Projects </a></li>
+  <li><a (click)="goTo('contact')">Contact</a></li>
+  </div>
+  <div class="row socialinks center">
+    <div class="col s3">
+      <a href="https://www.linkedin.com/in/maxim-simon-mpoy-pmp-11b90629/" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+    <div class="col s3">
+      <a href="https://github.com/LeBaron88" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="col s3">
+      <a href="https://www.youtube.com/channel/UCZTU2rhpY76FJoqtHIHd5iw/featured" target="_blank">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+    <div class="col s3">
+      <a href="https://www.instagram.com/lebaron_2020/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </div>
+</ul>

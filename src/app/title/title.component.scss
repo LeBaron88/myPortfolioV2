@@ -1,0 +1,41 @@
+.title {
+    height: 100vh;
+    padding: 60px 150px;
+}
+
+h1, h4, h6{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+h1, h4 {
+    font-weight: 900;
+    color: #fff;
+}
+
+h6 {
+    color: #FBA8AF;
+    font-weight: 500;
+}
+
+.content {
+    margin: 90px 50px;
+    font-size: 1.1em;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .title {
+        height: 100vh;
+        padding: 30px 0;
+    }
+    
+    .content {
+        margin: 60px 0px;
+        font-size: 1.1em;
+    }
+    h4 {
+        margin-top: 20px;
+        font-weight: 500;
+    }
+}
